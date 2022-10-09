@@ -77,5 +77,15 @@
             >;
         };
 
+        layer_mac {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans    &trans  &trans  &trans     &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans    &trans  &trans  &trans     &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LGUI  &kp LALT                  &kp RCTRL  &kp RGUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans    &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans    &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
